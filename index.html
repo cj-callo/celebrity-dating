@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/scripts.js"></script>
+    <title>Celebrity Dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Match</h1>
+      <p>Fill in the blanks to find your celebrity love match!</p>
+        <form id="celebrity">
+          <label for="name">Name</label>
+          <input id="name" type="text">
+            <label for="age">Your age</label>
+            <input id="age" type="text">
+            <label for="height">Your height</label>
+            <input id="height" type="text">
+            <label for="gender">Your gender</label>
+            <input id="gender" type="text">
+            <select id="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+
+          <button type="submit" class="btn">Show me my match!</button>
+          <div id="match">
+            <p>You perfect match is <span id="person"></span>!</p>
+        </form>
+      </div>
+
+  </body>
+</html>
